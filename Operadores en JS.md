@@ -1,8 +1,7 @@
 # Operadores en JavaScript
 
-| Matemáticos |
-| ----------- |
-| :--- | :--: |
+| Matemáticos | |
+| :---------- | :--------:|
 | Suma/Concatenación | + |
 | Resta | - |
 | Multiplicación | * |
