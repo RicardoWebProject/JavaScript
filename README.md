@@ -1,0 +1,1 @@
+Este es un repositorio que tiene como propósito servir de ejemplos para comenzar el aprendizaje en JavaScript
