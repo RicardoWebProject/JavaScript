@@ -20,10 +20,36 @@ Para comprender la sintaxis de este lenguaje debemos tener presente lo siguiente
 * La definición de variable y constante es exactamente la misma en este lenguaje como en el resto de lenguajes de programación.
 * Una **variable** es, como tal, un espacio que reservamos en memoria para almacenar un dato que **_podrá cambiar_** durante la ejecución de nuestro programa.
     * La palabra reservada para declarar variables es **_let_**; no se recomienda utilizar **_var_** a partir de ES6 (ECMAScript 6).
-* Las variables se puede:
-    * Declarar
-    * Inicializar
-    * Modificación
+* Las variables se pueden:
+    * Declarar:
+        * Esto significa decirle al programa que esta variable existe.
+        * Puede no tener valor, la podemos crear vacía, pero ya le estamos informando al programa que reserve un espacio en memoria para guardar una variable.
+        * Se declaran de esta manera:
+            ~~~
+            let numero;
+            ~~~
+    * Inicializar:
+        * Inicializar una variable es darle un valor.
+        * En el caso que ya esté declarada:
+            ~~~
+            numero = 5;
+            ~~~
+        * Existe la opción de declarar e iniciar en la misma sentencia:
+            ~~~
+            let numero = 5;
+            ~~~
+    * Modificación:
+        *Para modificar el valor de una variable existente, basta con asignarle un nuevo valor:
+            ~~~
+            numero = 3;
+            ~~~
+        * En este ejemplo, si **_numero_** se inicializaba en 5, ahora su valor cambiaría a 3.
+        * Esto se puede realizar siempre y cuando estemos dentro del ámbito de la variable **_numero_**. De lo contrario, podríamos toparnos con un error.
+* Para tema de las constantes:
+    * Las constantes solamente admiten la declaración e inicialización en la misma sentencia:
+        ~~~
+        const Pi = 3.1416;
+        ~~~
 
 
 * Una **constante** es un espacio que reservamos en memoria para almacenar un dato que **_no cambiará_** durante la ejecución de nuestro programa.
@@ -33,3 +59,35 @@ Para comprender la sintaxis de este lenguaje debemos tener presente lo siguiente
 ### Scope o Ámbito de una variable/constante
 * El scope o ámbito es la zona donde existe nuestra variable/constante.
 * Cuando declaramos una variable y después la queremos utilizar; dependiendo de dónde la hayamos declarado, la podríamos usar o no.
+
+
+## Tipos de Datos en JavaScript
+* **_Primitivos_**:
+    * Son los que el lenguaje trae por default; es decir, ya creados por él mismo.
+    * Los tipos de datos primitivos en JavaScript son:
+        1. Números:
+            ~~~
+            let numero = 5;
+            ~~~
+        2. Strings (cadenas):
+            * En este caso, existen dos formas de trabajar un string: con comilla simple o con comilla doble.
+            * Bajo ningún concepto se puede comenzar un string con comilla simple y finalizar con comilla doble, ni viceversa.
+            ~~~
+            let cadena = "Hola!";
+            let cadena = 'Hola!';
+            ~~~
+            * Siempre que se trabajen strings, deben ir encerrados en comillas. De lo contrario, el lenguaje interpreta que el contenido es una variable.
+            ~~~
+            let cadena = Hola;
+            ~~~
+        3. Booleanos:
+            * Tipos de datos lógicos que solo admiten dos valores: true o false. Es lo que interpretaríamos como verdadero o falso.
+            ~~~
+            let respuesta = true;
+            let respuesta = false;
+            ~~~
+        4. Undefined
+        5. Null
+            * Que no es lo mismo que undefined
+        6. Symbol:
+            * Es un tipo de variable nueva que llegó en ES6.
