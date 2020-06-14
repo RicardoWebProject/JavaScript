@@ -39,9 +39,9 @@ Para comprender la sintaxis de este lenguaje debemos tener presente lo siguiente
             let numero = 5;
             ~~~
     * Modificación:
-        *Para modificar el valor de una variable existente, basta con asignarle un nuevo valor:
+        * Para modificar el valor de una variable existente, basta con asignarle un nuevo valor:
             ~~~
-            numero = 3;
+            numero = 3
             ~~~
         * En este ejemplo, si **_numero_** se inicializaba en 5, ahora su valor cambiaría a 3.
         * Esto se puede realizar siempre y cuando estemos dentro del ámbito de la variable **_numero_**. De lo contrario, podríamos toparnos con un error.
