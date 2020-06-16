@@ -5,12 +5,10 @@
 * Las **propiedades** son las características que la cadena tiene por ser una cadena.
     * Por ejemplo: Longitud
     * Las características de un objeto de acuerdo a su tipo.
-
-
-Para utilizar los métodos y propiedades, se utiliza la **_Nomenclaura del Punto_**:
+* Para utilizar los métodos y propiedades, se utiliza la **_Nomenclaura del Punto_**:
     ~~~
-    cadena.método();
-    cadena.propiedad;
+        cadena.método();
+        cadena.propiedad;
     ~~~
     * Los métodos deben llevar paréntesis.
     * En algunos casos, dentro de los paréntesis de los métodos, hay parámetros.
