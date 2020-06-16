@@ -14,4 +14,4 @@
     * En algunos casos, dentro de los paréntesis de los métodos, hay parámetros.
 
 * * *
-* Para poder ver todos los métodos y propiedades que pueden ser utilizados en JS, se puede acceder al sitio [W3Schools](https://www.w3schools.com/js/js_strings.asp).
+* Para poder ver todos los métodos y propiedades que pueden ser utilizados en JS y sus strings, se puede acceder al sitio [W3Schools](https://www.w3schools.com/js/js_string_methods.asp).
