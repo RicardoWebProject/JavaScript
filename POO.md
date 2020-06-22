@@ -13,13 +13,13 @@ Algunos de los conceptos fundamentales de la POO son:
 Un OBJETO como tal, es un conjunto de atributos y métodos (cualidades y acciones), que abstraemos de objetos reales.
 
 Por ejemplo: Una persona tiene nombre, apellido y edad; por lo que puede plasmarse en código de programación de forma tal:
-    ~~~
+~~~
     const persona = {
         nombre: 'Juan'
         apellido: 'García'
         edad: 26
     }
-    ~~~
+~~~
 
 Pero en la vida real existen más de un sólo objeto. Es decir, existen varios con distintos atributos y métodos.
 Para abarcar esto, en programación se implementan las CLASES.
