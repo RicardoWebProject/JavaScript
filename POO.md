@@ -3,11 +3,11 @@ La programación orientada a objetos es un paradigma de la programación que act
 Es una de las múltiples formas de resolver un problema, como la programación estructurada, programación funcional, etc.
 
 Algunos de los conceptos fundamentales de la POO son:
-    * Clases
-    * Herencias
-    * Objetos
-    * Métodos
-    * Eventos
+* Clases
+* Herencias
+* Objetos
+* Métodos
+* Eventos
 
 ## PROPIEDADES:
 Un OBJETO como tal, es un conjunto de atributos y métodos (cualidades y acciones), que abstraemos de objetos reales.
