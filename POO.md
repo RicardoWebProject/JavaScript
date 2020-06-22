@@ -51,15 +51,15 @@ A la creación de objeto se le denomina **_INSTANCIAR_** (un objeto).
 ## MÉTODOS:
 Los objetos pueden tener funciones asociadas a él, con la única diferencia de que no se llaman funciones, sino MÉTODOS.
 Son exactamente lo mismo, pero se llaman de una forma distinta.
-    * Si lo hemos creado nosotros, es una función. Si pertenece al objeto, es un método.
-    * Es importante que se encuentre dentro de la clase, pero fuera del constructor.
+* Si lo hemos creado nosotros, es una función. Si pertenece al objeto, es un método.
+* Es importante que se encuentre dentro de la clase, pero fuera del constructor.
         ~~~
-        class Persona {
-            constructor (nombre, apellido, edad){
-                this.nombre; //nombre del objeto = nombre del parámetro
-                this.apellido; //apellido del objeto = apellido del parámetro
-                this.edad; //edad del objeto = edad del parámetro
-            }
+            class Persona {
+                constructor (nombre, apellido, edad){
+                    this.nombre; //nombre del objeto = nombre del parámetro
+                    this.apellido; //apellido del objeto = apellido del parámetro
+                    this.edad; //edad del objeto = edad del parámetro
+                }
 
                 saludar() {
                     return `Hola, me llamo ${this.nombre} y tengo ${this.edad} años.`
