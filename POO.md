@@ -68,15 +68,15 @@ Son exactamente lo mismo, pero se llaman de una forma distinta.
     ~~~
 
 Para crear los objetos utilizando la clase o plantilla, se hace con la palabra reservada 'new' y el nombre de la clase que queremos utilizar.
-    ~~~
-    const juan = new Persona ('Juan', 'García', 26) //Objeto Juan
-    ~~~
+~~~
+const juan = new Persona ('Juan', 'García', 26) //Objeto Juan
+~~~
 
 Una vez Instanciado el objeto, podremos acceder a sus propiedades y métodos utilizando la nomenclatura del punto, o buscando su propiedad en el objeto.
-    ~~~
+~~~
     juan.nombre;
     juan.apellido;
     juan.edad;
     juan.datos;
     juan.saludar(); //Método
-    ~~~
+~~~
